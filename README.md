@@ -54,12 +54,10 @@ Zingames is a robust, scalable, and modern web application built with Laravel. I
 
 ## 🚀 Features
 - 🎛️ **Admin Panel**: Manage users, games, categories, and messages
-- 👥 **User Management**: Add, edit, lock/unlock, and assign roles
 - 🕹️ **Game Management**: CRUD for games and categories
-- 🔒 **Secure Authentication**: Admin & super admin roles, account lockout, 2FA ready
+- 🔒 **Secure Authentication**: Admin roles, account lockout, 2FA ready
 - 🛡️ **Role & Permission System**: Fine-grained access control
 - 📊 **Dashboard**: Stats, recent activity, and quick actions
-- 📧 **Email Notifications**: For sub-admin creation and security events
 - 🗄️ **Database Migrations & Seeding**: Easy setup and test data
 - 🌐 **Responsive UI**: Works on desktop and mobile
 - 📝 **Extensive Documentation**: For easy onboarding
@@ -196,9 +194,7 @@ php artisan db:seed --class=AdminUserSeeder
 ## 🔑 Admin Logins
 | Name      | Email                     | Password     | Role        |
 |-----------|--------------------------|--------------|-------------|
-| Admin     | sauravpatil212@gmail.com | zingames21   | super_admin |
 | Sub Admin | subadmin@zingames.com    | subadmin123  | admin       |
-| Mayur P   | Work.mayurp@gmail.com    | Work.mayurp  | admin       |
 
 > ⚠️ **Change passwords after first login for security!**
 
@@ -285,9 +281,8 @@ POST /api/users/{id}/lock
 
 ## 🧑‍💻 User Stories
 - As an admin, I want to add new games so that users always have fresh content.
-- As a sub-admin, I want to manage categories but not users.
 - As a user, I want to play games without registration.
-- As a super admin, I want to lock/unlock any account for security.
+- As a admin, I want to lock/unlock any account for security.
 - As a developer, I want to easily extend the platform with new features.
 
 ---
@@ -404,7 +399,7 @@ POST /api/users/{id}/lock
 Agar aapko **Zingames** project ki source code, demo, ya deployment chahiye ho, toh niche diye gaye contact details par humse sampark karein:
 
 - 📧 Email: [sauravpatil212@gmail.com](mailto:sauravpatil212@gmail.com)
-- 🌐 Website: [sauravpatil.re.gd](http://sauravpatil.re.gd)
+- 🌐 Website: [sauravpatil.rf.gd](http://sauravpatil.re.gd)
 - 📱 Phone/WhatsApp: 9879435012
 
 > **Note:** Project ka access sirf request par diya jayega. Business, academic, ya personal use ke liye contact karein!
@@ -412,19 +407,8 @@ Agar aapko **Zingames** project ki source code, demo, ya deployment chahiye ho, 
 ---
 
 ## 📬 Contact
-- Project Maintainer: [Your Name](mailto:your.email@example.com)
+- Project Maintainer: [Saurav Patil](mailto:sauravpatil212@gmail.com.com)
 - For support, open an issue or contact the repository owner.
 
 ---
 
-<p align="center"><i>Project maintained by your team. For support, contact the repository owner.</i></p>
-
-<!-- Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status" />
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
-  <img src="https://img.shields.io/badge/PRs-welcome-green" alt="PRs Welcome" />
-  <img src="https://img.shields.io/badge/status-active-success" alt="Project Status" />
-</p>
-
-<!-- Filler lines for 450+ lines -->
