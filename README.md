@@ -220,7 +220,7 @@ php artisan db:seed --class=AdminUserSeeder
 > _Add your app screenshots here for a better showcase!_
 
 <p align="center">
-  <img src="public/img/logo.png" alt="Zingames Screenshot" width="320" />
+  <img src="[public/img/logo.png](https://github.com/sauravpatil21/Zingames/blob/main/Screenshot%202025-07-18%20201358.png)" alt="Zingames Screenshot" width="320" />
   <!-- <img src="public/img/screenshot1.png" width="320" /> -->
   <!-- <img src="public/img/screenshot2.png" width="320" /> -->
 </p>
